@@ -1,0 +1,49 @@
+
+.ContenedorUno{
+  display:flex;
+  justify-content: center;
+  background-color: #3661AB;
+  
+}
+
+
+.contenedorDos{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-image: url("../public/img/quien_es.jpg");
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 52%;
+  
+  
+}
+
+
+
+.imagenNegro{
+  filter: brightness(0);
+  width: 400px;
+  height: 400px;
+  
+  margin-top: 80px;
+  align-self: self-start;
+  
+}
+
+.imagenNormal{
+  width: 400px;
+  height: 400px;
+  margin-right: 450px;
+  margin-top: 80px;
+ 
+}
+
+.nombrePoke{
+  margin-top: 220px;
+}
+
+
