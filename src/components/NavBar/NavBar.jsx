@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
+import { useModoDarkContext } from "../../Context/Context";
 const NavBar = () => {
+    const {modoDark} = useModoDarkContext();
+    console.log(modoDark);
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-primary">
