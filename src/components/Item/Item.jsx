@@ -19,7 +19,7 @@ const Item = ({data}) => {
     console.log(unPokemon)
     return (
         <>
-            {loading?<p>loading...</p>:(<div className="card" style={{width: '18rem'}}>
+            {loading?<p>loading...</p>:(<div className="card" style={{width: '20rem'}}>
             <img className="card-img-top"  src={unPokemon.sprites.other["official-artwork"].front_default} alt="pokemon" />
   <div className="card-body">
     <h5 className="card-title">{data.name}</h5>

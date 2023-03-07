@@ -27,7 +27,7 @@ const ItemListContainer = () => {
       
     return (
         <div>
-            <div className="d-flex p-2 mt-5 gap-3">
+            <div className="d-flex p-2 mt-5 gap-3 flex-wrap justify-content-center">
                 {producto}
 
             </div>
